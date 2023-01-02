@@ -1,0 +1,115 @@
+.profile_container{
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+#profile-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+  justify-content: space-evenly;
+  gap: 1.1rem;
+  background-color: white;
+  padding-left: 6rem;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  display: flex;
+  gap: 200px;
+}
+.heading {
+  margin-bottom: 20px;
+}
+#profile-page >input {
+  width: 300px;
+  border-radius: 4px;
+  height: 20px;
+  padding-left: 4px;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  margin: 0;
+}
+
+#photo {
+  height: 70px;
+  width: 70px;
+}
+.row-2 input {
+  margin-left: 13px;
+}
+.row-3-div-1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.row-3-div-2 {
+  margin-left: -45px;
+  align-self: center;
+  gap: 2px;
+}
+#link-1 {
+  color: grey;
+}
+.para-grey {
+  font-size: smaller;
+  color: gray;
+}
+.row-4 {
+  gap: 125px;
+}
+.row-4 input {
+  height: 200px;
+  /* overflow-x: hidden; */
+  text-align: start;
+  overflow-wrap: normal;
+}
+textarea {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.row-5 {
+  display: flex;
+  flex-direction: column;
+}
+.row-5-div-1 {
+  display: flex;
+  gap: 211px;
+}
+
+.row-5-div-2 input {
+  width: 12px;
+}
+.row-5-div-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 258px;
+  gap: 2px;
+  font-size: small;
+}
+.row-6 {
+  display: flex;
+  gap: 45px;
+}
+button {
+  width: 120px;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: lightgreen;
+}
